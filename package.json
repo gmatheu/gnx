@@ -12,7 +12,7 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/simtlix/gnx.git"
+    "url": "https://github.com/gmatheu/gnx.git"
   },
   "peerDependencies": {
     "graphql": "^14.5.8",
@@ -31,6 +31,6 @@
     "ghooks": {
       "pre-commit": "npm run lint || npm run lint-fix"
     },
-    "owner": "gnx"
+    "owner": "gmatheu"
   }
 }
