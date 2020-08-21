@@ -1,6 +1,6 @@
 {
-  "name": "@simtlix/gnx",
-  "version": "2.4.7",
+  "name": "@gmatheu/gnx",
+  "version": "2.5.0.alpha1",
   "description": "",
   "main": "gnx.js",
   "scripts": {
