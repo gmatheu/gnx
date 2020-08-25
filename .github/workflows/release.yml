@@ -48,7 +48,7 @@ jobs:
       - run: npm version --no-git-tag-version preminor --preid alpha
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-        commit_message: "Set next development version"
+          commit_message: "Set next development version"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
