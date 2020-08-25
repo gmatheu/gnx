@@ -27,14 +27,14 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: ${{ env.GITHUB_REF_SLUG }}
       - name: Create Release
-          id: create_release
-          uses: actions/create-release@v1
-          env:
+        id: create_release
+        uses: actions/create-release@v1
+        env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          with:
+        with:
             tag_name: "${{ env.GITHUB_REF_SLUG }}"
             release_name: Release "${{ env.GITHUB_REF_SLUG }}"
-          body: |
+            body: |
               Changes in this Release
             draft: false
             prerelease: false
