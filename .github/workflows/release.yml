@@ -43,8 +43,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 12
-      - run: npm ci
-      - run: npm test
       - run: npm version --no-git-tag-version preminor --preid alpha
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
