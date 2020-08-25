@@ -1,4 +1,7 @@
 [![npm version](https://badge.fury.io/js/%40simtlix%2Fgnx.svg)](https://badge.fury.io/js/%40simtlix%2Fgnx)
+![Build on master](https://github.com/gmatheu/gnx/workflows/Build%20on%20master/badge.svg)
+![Generate Release](https://github.com/gmatheu/gnx/workflows/Generate%20Release/badge.svg)
+![Publish packages](https://github.com/gmatheu/gnx/workflows/Publish%20packages/badge.svg)
 
 # How to
 ## Install
