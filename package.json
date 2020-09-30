@@ -1,6 +1,6 @@
 {
   "name": "@gmatheu/gnx",
-  "version": "3.0.1",
+  "version": "3.1.0-alpha.0",
   "description": "",
   "main": "gnx.js",
   "scripts": {
